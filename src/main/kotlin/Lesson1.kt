@@ -14,5 +14,8 @@ fun main(args : Array<String>){
         |two line 
         |three line
     """.trimMargin())
+    val pair  = Pair("one", "two")
+    println("first: ${pair.first} second: ${pair.second}")
+    val(a,b,c) = Triple(32, "max", listOf(1,2,3))
 
 }
